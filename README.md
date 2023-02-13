@@ -52,6 +52,18 @@ git clone https://gitee.com/dslab-lzu/maqueos.git
     ├── run             // 实验目录
     ├── xtfs            // xtfs目录
     │   ├── bin                 // MaQueOS应用程序
+    │   │   ├── asm.h
+    │   │   ├── compile.sh
+    │   │   ├── create.S            // 创建hello_xt文件
+    │   │   ├── destroy.S           // 删除hello_xt文件
+    │   │   ├── hello.S             // 测试output系统调用和软件定时器
+    │   │   ├── print.S             // 测试带参数的进程的创建
+    │   │   ├── read.S              // 从hello_xt文件中读数据
+    │   │   ├── share.S             // 测试页例外
+    │   │   ├── shmem.S             // 测试共享内存
+    │   │   ├── sync.S              // 测试sync系统调用
+    │   │   ├── write.S             // 向hello_xt文件中写数据
+    │   │   └── xtsh.S              // MaQueOS使用的shell程序（xtsh）
     │   └── src                 // xtfs工具源码
     └── kernel          // MaQueOS源代码目录
         ├── Makefile
