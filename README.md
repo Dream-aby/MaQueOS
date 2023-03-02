@@ -27,7 +27,7 @@ sudo apt upgrade
 3、安装软件
 
 ```bash
-sudo apt install libspice-server-dev libsdl2-2.0-0 libfdt-dev libusbredirparser-dev libfuse3-dev libcurl4 build-essential gcc-multilib libpython2.7 git
+sudo apt install libspice-server-dev libsdl2-2.0-0 libfdt-dev libusbredirparser-dev libfuse3-dev libcurl4 build-essential gcc-multilib libpython2.7 libnettle7 git
 ```
 
 4、克隆仓库
