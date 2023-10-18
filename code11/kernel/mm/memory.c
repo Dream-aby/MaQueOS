@@ -203,7 +203,7 @@ void mem_init()
 	for (i = 0; i < NR_PAGE; i++)
 	{
 		if (i >= KERNEL_START_PAGE && i < KERNEL_END_PAGE)
-			mem_map[i] = 100;
+			mem_map[i] = 1;
 		else
 			mem_map[i] = 0;
 	}
